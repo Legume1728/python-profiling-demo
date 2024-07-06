@@ -1,0 +1,7 @@
+*.prof
+*.out
+*.collapse
+*.svg
+*.json
+__pycache__
+venv
