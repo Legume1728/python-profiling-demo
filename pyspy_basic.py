@@ -28,8 +28,6 @@ def main():
     dump_matrix(matrix4, './matrix_data_4.json')
 
 
-enable_cProfile = True
-
 if __name__ == '__main__':
     start_time = time.time()
     main()

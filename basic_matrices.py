@@ -3,6 +3,15 @@ import cProfile
 from matrix_ops import gen_sq_matrix, dump_matrix, add_matrices, multiply_matrices
 
 
+# to run this with cProfile
+# python3 basic_matrices.py
+
+# then output using:
+# python3 analyze_cprofile.py cprofile.out
+
+# visualize the output using Snakeviz:
+# snakeviz cprofile.out -s
+
 def main():
     matrix1 = gen_sq_matrix(500)
     matrix2 = gen_sq_matrix(500)
