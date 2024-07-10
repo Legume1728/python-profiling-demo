@@ -5,7 +5,7 @@ from matrix_ops import gen_sq_matrix, dump_matrix, add_matrices, multiply_matric
 # py-spy record -o profile.svg -- python pyspy_basic.py
 
 # to run py-spy on a running process, run the following command:
-# py-spy record -o profile2.svg top -p <pid>
+# py-spy record -o profile2.svg -p <pid>
 
 # to get a top view of the script, run the following command:
 # py-spy top -- python pyspy_basic.py
